@@ -1,6 +1,6 @@
 package com.terry   //定義類別前導名稱
 
-// 在 Kotlin 中定意函示，只要【fun 函式名稱 (字串的陣列)】
+// 在 Kotlin 中定義函示，只要【fun 函式名稱 (字串的陣列)】
 fun main(args: Array<String>) {
     //println("Hello kotlin")
 
@@ -12,6 +12,15 @@ fun main(args: Array<String>) {
     // 儲存物件：使用「val」常數 與「var」變數
     val h = Human()
     h.hello()
+
+    var age = 10
+    age = 2
+
+    var name: String
+
+    var call: String
+    call = "Terry!"
+    println(call)
 }
 
 
@@ -29,3 +38,4 @@ class Human {
         println("Hello.kt 裡面的 Hello kotlin!!")
     }
 }
+

@@ -24,6 +24,19 @@ public class Hello {
 
         // 接下來就可以 p 物件去呼叫他身上的「Hello 方法」得到結果
         p.hello();
+
+
+        //變數
+        int age = 19;
+        char c = 'A';
+        byte b = 120;
+        float weight = 66.5f;
+        double height = 1.7f;
+        boolean adult = true;
+        String name = "Tom";
+
+
+
     }
 }
 
